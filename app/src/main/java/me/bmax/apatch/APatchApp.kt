@@ -60,7 +60,7 @@ class APApplication : Application() {
         private const val RESETPROP_BIN_PATH = APATCH_BIN_FOLDER + "resetprop"
         const val MAGISK_SCONTEXT = "u:r:magisk:s0"
 
-        private const val DEFAULT_SU_PATH = "/system/bin/kp"
+        private const val DEFAULT_SU_PATH = "/system/bin/su"
         private const val LEGACY_SU_PATH = "/system/bin/su"
 
         const val SP_NAME  = "config"
